@@ -11,18 +11,20 @@ weight: 300 400 600 */
 
 /* Ligth palette */
 
-    /* --light-creamy: #f7f5df;
-    --violet: #56386a;
+--light-creamy: #faf9ef;
+
+    /* --light-creamy: #f7f5df; */
+    --violet: #007562;
     --header: #E1F7C8; 
      --button-test: white;
-     */
+    
 
 /* dark paletter */
-    --light-creamy: #1F2833;
+    /* --light-creamy: #1F2833;
     --violet: #66FCF1;
     --text-color: white;
     --header: #d1f2ef;
-    --button-test: black;
+    --button-test: black; */
 
 
 
@@ -173,6 +175,7 @@ nav a {
     justify-content: center;
     height: 50vh;
     width: 80vw;
+    margin: 1rem
 }
 
 @media screen and (max-width: 378px) {
