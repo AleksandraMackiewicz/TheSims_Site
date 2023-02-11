@@ -10,7 +10,7 @@
   * {
     margin: 0;
     font-family: 'Oswald', sans-serif;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  /* font-family: 'Ubuntu Condensed', sans-serif; */
   font-weight: 300;
   font-size: 0.8rem;
   }
@@ -34,7 +34,8 @@
   */
   img, picture, video, canvas, svg {
     display: block;
-    max-width: 100%;
+
+    overflow: hidden;
   }
   /*
     7. Remove built-in form typography styles
@@ -51,7 +52,11 @@
 
   h2 {
     font-weight: 400;
-  font-size: 2rem;
+  font-size: 4rem;
+  }
+  h1 {
+    font-size: 6rem;
+    font-weight: 900;
   }
   /*
     9. Create a root stacking context
