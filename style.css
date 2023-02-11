@@ -15,7 +15,7 @@ weight: 300 400 600 */
 
     /* --light-creamy: #f7f5df; */
     --violet: #007562;
-    --header: #E1F7C8; 
+    --header: #eeffdd; 
      --button-test: white;
     
 
@@ -111,14 +111,16 @@ nav a {
 }
 
 .header_img img{
-    object-fit: cover;
+      /* object-fit: cover; */
     /* object-position: -62rem; */
     /* width: 100%; */
-    object-position: -9rem;
-    width: 200rem;
+    object-position: -12rem;
+    width: 123rem;
     height: 100%;
-    filter: brightness(74%);
-    object-fit: scale-down;
+    /* filter: brightness(74%); */
+    /* object-fit: scale-down; */
+    filter: brightness(84%);
+
 }
 
 .header_text {
@@ -127,6 +129,11 @@ nav a {
     text-align: center;
     /* color: #d4f7c9; */
     color: var(--header);
+    top: 17rem;
+}
+
+.header_text p {
+    font-size: 1rem;
 }
 /* section_body */
 .section_body {
