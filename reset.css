@@ -51,12 +51,12 @@
   }
 
   h2 {
-    font-weight: 400;
+    /* font-weight: 4x00; */
   font-size: 4rem;
   }
   h1 {
-    font-size: 6rem;
-    font-weight: 900;
+    font-size: 4rem;
+    /* font-weight: 400; */
   }
   /*
     9. Create a root stacking context
