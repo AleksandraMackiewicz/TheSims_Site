@@ -187,7 +187,7 @@ nav a {
     justify-content: center;
     height: 50vh;
     width: 80vw;
-    margin: 1rem
+    margin: 3rem
 }
 
 @media screen and (max-width: 378px) {
@@ -205,7 +205,7 @@ nav a {
     }
 
     .first_news img {
-        object-position: -9rem;
+        object-position: -5rem;
     }
 }
 
