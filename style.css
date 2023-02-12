@@ -11,7 +11,7 @@ weight: 300 400 600 */
 
 /* Ligth palette */
 
---light-creamy: #faf9ef;
+--light-creamy: #f5f3ef;
 
     /* --light-creamy: #f7f5df; */
     --violet: #007562;
@@ -41,6 +41,7 @@ weight: 300 400 600 */
 body {
     background-color: var(--light-creamy);
     width: 100vw;
+    color: rgb(46, 45, 45);
 }
 
 /* buttons */
@@ -66,6 +67,18 @@ body {
 
     width: 40vw;
     height: 8vw;
+}
+
+hr {
+    border: 0.1px solid ;
+    width: 19rem;
+    margin: 0 auto;
+}
+
+.news hr {
+    width: 15rem;
+    margin: 1rem;
+    margin-top: 0;
 }
 /* section_header */
 nav {
@@ -161,6 +174,7 @@ nav a {
     flex-direction: column;
     align-items: center;
 
+
     margin-bottom: 3vh;
     /* background-color: rgba(243, 247, 255, 0.3); */
     color: var(--text-color);
@@ -185,6 +199,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 50vh;
     width: 80vw;
     margin: 3rem
