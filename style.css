@@ -15,6 +15,7 @@ weight: 300 400 600 */
 
     /* --light-creamy: #f7f5df; */
     --violet: #007562;
+    --dark-violet: #003d33;
     --header: #eeffdd; 
      --button-test: white;
     
@@ -54,7 +55,84 @@ body {
 
 
 }
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+/* hamburger */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
 
+    width: 100%;
+
+
+}
+
+header p {
+    color: white;
+    margin: 0.5rem;
+}
+.hamburger {
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+.hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+    transform: 0.4s;
+
+}
+
+.hamburger.is_active:before {
+    transform: rotate(-45deg) translate(-9px, 7px);
+}
+.hamburger.is_active .bar {
+    opacity: 0;
+}
+.hamburger.is_active:after {
+    transform: rotate(45deg) translate(-8px, -7px);
+}
+
+.mobile_nav {
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    z-index: 98;
+    background-color: var(--dark-violet);
+    padding-top: 9rem
+  
+}
+
+.mobile_nav.is_active {
+    left: 0;
+}
+.mobile_nav a {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.6rem;
+    padding: 1rem 1rem;
+    background-color: #036958;
+}
+.mobile_nav a:hover {
+    background-color: #0ba88e;
+}
 .news button {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -203,6 +281,12 @@ nav a {
     height: 50vh;
     width: 80vw;
     margin: 3rem
+}
+
+.footer_main {
+    background-color: rgb(227, 225, 219);
+    color:rgba(46, 45, 45, 0.4);
+    margin: 2rem 0;
 }
 
 @media screen and (max-width: 378px) {

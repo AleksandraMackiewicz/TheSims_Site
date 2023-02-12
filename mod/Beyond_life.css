@@ -1,0 +1,15 @@
+.header_img img {
+    object-position: -13rem;
+    width: 98rem;
+    height: 98%;
+    object-fit: scale-down;
+    filter: brightness(84%);
+}
+
+.more_spells_img img {
+    object-position: 6rem;
+    width: 100rem;
+    height: 90%;
+    object-fit: scale-down;
+    filter: brightness(84%);
+}
