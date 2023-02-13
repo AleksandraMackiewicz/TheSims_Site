@@ -237,7 +237,7 @@ hr {
     object-position: 33rem -3rem;
     width: 102rem;
     height: 118%;
-    filter: brightness(46%);
+    filter: brightness(69%);
     object-fit: scale-down;
     transform: rotate(0deg);
 
@@ -420,8 +420,8 @@ hr {
         display: none;
     }
        .header_img img {
-        object-position: 0;
-    width: 102rem;
+        object-position: 0rem -10rem;
+         width: 102rem;
     height: 83%;
    object-fit: cover;
 
