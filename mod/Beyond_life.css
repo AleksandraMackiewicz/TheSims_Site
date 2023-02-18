@@ -13,3 +13,26 @@
     object-fit: scale-down;
     filter: brightness(84%);
 }
+
+.header_img img {
+    object-position: 0rem;
+     /* width: 100%; */
+}
+
+.news_text {
+    /* height: auto; */
+    width: 100%;
+    /* margin: 0; */
+    /* padding: 3rem; */
+}
+
+.section_mod_body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_text {
+    /* height: auto; */
+    width: 75%;
+}

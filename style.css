@@ -47,7 +47,9 @@ weight: 300 400 600 */
 
 }
 
-
+.home {
+    /* cursor: pointer; */
+}
 
 body {
     background-color: var(--light-creamy);
@@ -310,7 +312,6 @@ hr {
 .footer_main {
     background-color: rgb(227, 225, 219);
     color:rgba(46, 45, 45, 0.4);
-    margin: 2rem 0;
 }
 
 @media screen and (max-width: 378px) {
@@ -355,6 +356,10 @@ hr {
     
     .header_box {
         width: 100%;
+    }
+
+    header {
+        width: 41%;
     }
 
 
@@ -427,6 +432,11 @@ hr {
 
  
     }
+
+    header {
+        width: 41%;
+    }
+    
     .news_text {
         height: 100vh;
     }
